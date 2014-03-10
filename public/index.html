@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TwitterSpritz</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" media="all">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/open-spritz.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <header role="banner">
+    <h1>SpritzFeed</h1>
+  </header>
+
+  <main role="main">
+    <div id="word">
+      <span class="left container"><span class="text"></span></span><span class="pivot container"></span><span class="right container"></span>
+    </div>
+    <input id="wpm" type="text" value="400"></input>(wpm)<button id="go" type="button">Go</button>
+    <hr>
+    <div class="feed">Welcome to TwitterSpritz. Looking for Tweets containing the keyword 'awesome'...</div>
+  </main>
+
+  <script>
+    var _gaq=[['_setAccount','UA-XXXX-XX'],['_trackPageview']];(function(a,b){var c=a.createElement(b),d=a.getElementsByTagName(b)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";d.parentNode.insertBefore(c,d)})(document,"script");
+  </script>
+
+</body>
+</html>

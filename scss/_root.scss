@@ -1,0 +1,29 @@
+body {
+  padding: 16px;
+}
+
+.feed {
+  display: none;
+}
+
+#word {
+  height: 40px;
+  font-size: 26px;
+}
+#word > .container {
+  vertical-align: middle;
+}
+.left {
+  width: 100px;
+  display: inline-block;
+}
+.left > .text {
+  float: right;
+}
+.pivot {
+  color: red;
+}
+
+#text {
+  width: 100%;
+}
